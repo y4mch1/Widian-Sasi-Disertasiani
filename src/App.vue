@@ -20,7 +20,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
 import { useRoute } from 'vue-router'
-import Navbar from './components/Navbar.vue'
+import Navbar from './Components/Navbar.vue'
 
 const cursor = ref(null)
 const route = useRoute()
